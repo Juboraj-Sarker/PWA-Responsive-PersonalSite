@@ -46,11 +46,12 @@ body {
 }
 .content {
   margin-left: 250px;
-  padding: 1px 16px;
-  height: 1000px;
+  padding-bottom: 10px;
+  height: 100%;
   position: -ms-page;
   margin-top: 65px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  
   transition: 2.0s;
   
   
@@ -68,7 +69,7 @@ body {
 }
  
 .sidebar a.active {
-  background-color: #4CAF50;
+  background-color: #018786;
   color: white;
 }
 
