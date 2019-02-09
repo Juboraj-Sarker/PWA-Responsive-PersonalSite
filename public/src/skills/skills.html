@@ -1,538 +1,578 @@
 <!DOCTYPE html>
 <html>
-     
-    <head>
-                        <link rel="stylesheet" type="text/css" href="/src/main/main.css">
-                        <link rel="stylesheet" type="text/css" href="/src/skills/skills.css">
-			<link rel="manifest" href="/manifest.json">
-			<script defer src="/sw.js"></script>
 
-                        <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
-        <!--[if lt IE 9]>
+<head>
+   <link rel="stylesheet" type="text/css" href="/src/main/main.css">
+   <link rel="stylesheet" type="text/css" href="/src/skills/skills.css">
+   <link rel="manifest" href="/manifest.json">
+   <script defer src="/sw.js"></script>
+
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+   <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-    </head>
-    <body>
+</head>
+
+<body>
 
 
-            <div id = "titleBar" class="titlebar w3-container ">
-                    <a id = "icon" class="icon"> <i class="fa fa-bars"></i></a> 
-                    <h1 class = "homeTitle">Skills</h1>    
+   <div id="titleBar" class="titlebar w3-container ">
+      <a id="icon" class="icon"> <i class="fa fa-bars"></i></a>
+      <h1 class="homeTitle">Skills</h1>
+   </div>
+
+   <!-- w3-sidebar w3-bar-block -->
+   <div id="sidebar" class="sidebar w3-sidebar w3-bar-block " style="width:250px;">
+
+      <a class="logoClass" href="/index.html"><img src="/src/main/main.png" alt="Trulli" width="250" height="32"></a>
+
+
+      <a href="/index.html">
+         <i class="fa fa-home"></i>
+         Home
+      </a>
+
+      <a href="/src/about/about.html">
+         <i class="fa fa-question-circle"></i>
+         About
+      </a>
+
+      <div id="myLinks">
+
+
+
+         <a href="/src/skills/skills.html" class="active">
+            <i class="fa fa-pie-chart"></i>
+            Skills
+         </a>
+
+         <a href="/src/experience/experience.html">
+            <i class="fa fa-briefcase"></i>
+            Experience
+         </a>
+
+         <a href="/src/projects/projects.html">
+            <i class="fa fa-edit"></i>
+            Project
+         </a>
+
+         <a href="/src/education/education.html">
+            <i class="fa fa-graduation-cap"></i>
+            Education
+         </a>
+
+         <a href="/src/certification/certification.html">
+            <i class="fa fa-certificate"></i>
+           Professional Certification
+    </a>
+
+         <a href="/src/award/award.html">
+            <i class="fa fa-trophy"></i>
+            Award
+         </a>
+
+         <a href="/src/contact/contact.html">
+            <i class="fa fa-phone-square"></i>
+            Contact
+         </a>
+
+
+
+
+      </div>
+
+   </div>
+
+
+
+
+
+
+   <div id="mainContent" class="content w3-container">
+
+
+      <div class="fullContainer">
+
+         <img class="topImage" src="/src/home/home.jpg" alt="Juboraj Sarker">
+         <h1 class="myTitle">Hi, I'm Juboraj Sarker</h1>
+         <p class="myTagline">A Dreamer with open eyes !</p>
+         <p class="myDescription">I'm a hardworking and faithful person. I like honesty, personality, punctuality,
+            sincerity. And passionate with Mobile Application Developing.</p>
+
+         <div class="contactContainer">
+            <p class="myContact">Email: juborajsarker001@gmail.com</p>
+            <p class="myContact">Phone: +8801938365335</p>
+         </div>
+
+         <div class="socialContainer">
+
+            <a class="social" href="https://www.facebook.com/sarker.juboraj" target="_blank"><i class="fa fa-facebook"></i>
+               <a class="social" href="https://plus.google.com/+JuborajSarker001" target="_blank"><i class="fa fa-google-plus"></i>
+                  <a class="social" href="https://www.linkedin.com/in/juboraj-sarker/" target="_blank"><i class="fa fa-linkedin"></i>
+                     <a class="social" href="https://twitter.com/juboraj_sarker" target="_blank"><i class="fa fa-twitter"></i>
+                        <a class="social" href="https://www.instagram.com/juboraj.sarker/" target="_blank"><i class="fa fa-instagram"></i></a>
+         </div>
+      </div>
+
+
+
+      <div class="fullContainer2">
+
+
+         <h1 class="mainTitle">Skills</h1>
+
+         <h1 class="innerTitle"> <i class="personalize fa fa-users"></i>Professional Skills</h1>
+
+         <div class="contentDiv">
+
+            <div class="progress">
+               <p class="skillName">Mobile Application Development </p>
+               <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
+
+               </div>
+               <p class="percentage">90% </p>
             </div>
 
-            <!-- w3-sidebar w3-bar-block -->
-            <div id = "sidebar" class="sidebar w3-sidebar w3-bar-block " style="width:250px;">
-
-                    <a class="logoClass" href="/index.html"><img src="/src/main/main.png" alt="Trulli" width="250" height="32"></a>
-                    
-
-                    <a href="/index.html" >
-                            <i class="fa fa-home"></i>
-                            Home
-                      </a>
-
-                    <a href="/src/about/about.html"> 
-                            <i class="fa fa-question-circle"></i>
-                        About
-                    </a>
-
-                    <div id="myLinks">
-
-                            
-
-                    <a href="/src/skills/skills.html" class="active">
-                          <i class="fa fa-pie-chart"></i>
-                          Skills
-                    </a>
-
-                    <a href="/src/experience/experience.html">
-                            <i class="fa fa-briefcase"></i>
-                            Experience
-                      </a>
-
-                       <a href="/src/projects/projects.html">
-                          <i class="fa fa-edit"></i>
-                          Project
-                    </a>
-
-                    <a href="/src/education/education.html">
-                            <i class="fa fa-graduation-cap"></i>
-                            Education
-		     </a>
-					  
-			<a href="/src/award/award.html">
-                            <i class="fa fa-trophy"></i>
-                            Award
-                      </a>
-
-                      <a href="/src/contact/contact.html">
-                            <i class="fa fa-phone-square"></i>
-                            Contact
-                      </a>
-
-                      
-
-                      
-                    </div>
-                   
-                  </div>
-            
-
-      
-
-        
-        
-         <div id="mainContent" class="content w3-container">
-
-
-                                <div class = "fullContainer">
-                
-                                        <img class="topImage" src="/src/home/home.jpg" alt="Juboraj Sarker">
-                                        <h1 class= "myTitle">Hi, I'm Juboraj Sarker</h1>
-                                        <p class = "myTagline">A Dreamer with open eyes !</p>
-                                        <p class = "myDescription">I'm a hardworking and faithful person. I like honesty, personality, punctuality, sincerity. And passionate with Mobile Application Developing.</p>
-                               
-                                        <div class = "contactContainer">
-                                          <p class = "myContact">Email: juborajsarker001@gmail.com</p>
-                                           <p class = "myContact">Phone: +8801938365335</p>
-                                        </div>
-                
-                                        <div class = "socialContainer">
-                                             
-                                        <a class="social" href="https://www.facebook.com/sarker.juboraj" target="_blank"><i class="fa fa-facebook"></i>
-                                        <a class="social" href="https://plus.google.com/+JuborajSarker001" target="_blank"><i class="fa fa-google-plus"></i>
-                                        <a class="social" href="https://www.linkedin.com/in/juboraj-sarker/" target="_blank"><i class="fa fa-linkedin"></i>
-                                        <a class="social" href="https://twitter.com/juboraj_sarker" target="_blank"><i class="fa fa-twitter"></i>
-                                        <a class="social" href="https://www.instagram.com/juboraj.sarker/" target="_blank"><i class="fa fa-instagram"></i></a>    
-                                        </div>
-                                </div>
-
-
-
-                                <div class = "fullContainer2">
-                
-                                                
-                                <h1 class= "mainTitle">Skills</h1>
-                                
-                                  <h1 class= "innerTitle"> <i class="personalize fa fa-users"></i>Professional  Skills</h1>
-                                
-                                  <div class= "contentDiv">
-
-                                   <div class="progress">
-                                    <p class= "skillName">Mobile Application Development </p>
-                                 <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">90% </p>
-                                  </div> 
-                                  
-                                  <div class="progress">
-                                    <p class= "skillName">Website Design & Development </p>
-                                 <div class="myProgress progress-bar  progress-bar-info progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">80% </p>
-                                  </div> 
+            <div class="progress">
+               <p class="skillName">Website Design & Development </p>
+               <div class="myProgress progress-bar  progress-bar-info progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
 
-                                  <div class="progress">
-                                                <p class= "skillName">Graphics Design (UI/UX) </p>
-                                             <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                                   
-                                             </div>
-                                             <p class= "percentage">80% </p>
-                                             
-                                              </div> 
+               </div>
+               <p class="percentage">80% </p>
+            </div>
 
-                                  <div class="progress">
-                                    <p class= "skillName">Mobile Game (Unity 3D) </p>
-                                 <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">60% </p>
-                                 
-                                  </div> 
-
-                                   <div class="progress">
-                                    <p class= "skillName">Software Development (.Net Framework) </p>
-                                 <div class="myProgress progress-bar progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">60% </p>
-                                  </div> 
-
-                                  
-
-
-
-                                  </div>
-
-
-
-
-
-
-
-                                  <h1 class= "innerTitle"> <i class="personalize fa fa-code"></i>Programming Language</h1>
-                                
-                                  <div class= "contentDiv">
-
-                                   <div class="progress">
-                                    <p class= "skillName">Java </p>
-                                 <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">90% </p>
-                                  </div> 
-                                  
-                                  <div class="progress">
-                                    <p class= "skillName">Javascript </p>
-                                 <div class="myProgress progress-bar  progress-bar-info progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">80% </p>
-                                  </div> 
-
-                                  <div class="progress">
-                                                <p class= "skillName">C/C# </p>
-                                             <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                                   
-                                             </div>
-                                             <p class= "percentage">80% </p>
-                                             
-                                              </div> 
-
-                                  <div class="progress">
-                                    <p class= "skillName">Python </p>
-                                 <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">60% </p>
-                                 
-                                  </div> 
-
-                                   <div class="progress">
-                                    <p class= "skillName">Php </p>
-                                 <div class="myProgress progress-bar progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">60% </p>
-                                  </div> 
-
-                                  
-
-
-
-                                  </div> 
+            <div class="progress">
+               <p class="skillName">Graphics Design (UI/UX) </p>
+               <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
 
+               </div>
+               <p class="percentage">80% </p>
 
+            </div>
 
+            <div class="progress">
+               <p class="skillName">Mobile Game (Unity 3D) </p>
+               <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
 
+               </div>
+               <p class="percentage">60% </p>
 
+            </div>
 
+            <div class="progress">
+               <p class="skillName">Software Development (.Net Framework) </p>
+               <div class="myProgress progress-bar progress-bar-striped active " role="progressbar" aria-valuenow="100"
+                  aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
 
+               </div>
+               <p class="percentage">60% </p>
+            </div>
 
 
-                                  <h1 class= "innerTitle"> <i class="personalize fa fa-laptop"></i>Development Environment</h1>
-                                
-                                  <div class= "contentDiv">
 
-                                   <div class="progress">
-                                    <p class= "skillName">Android Studio </p>
-                                 <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">90% </p>
-                                  </div> 
-                                  
-                                  <div class="progress">
-                                    <p class= "skillName">Eclipse/Netbeans </p>
-                                 <div class="myProgress progress-bar  progress-bar-info progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:85%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">85% </p>
-                                  </div> 
-
-                                  <div class="progress">
-                                                <p class= "skillName">PyCharm </p>
-                                             <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                                   
-                                             </div>
-                                             <p class= "percentage">80% </p>
-                                             
-                                              </div> 
-
-                                  <div class="progress">
-                                    <p class= "skillName">Visual Studio/ Visual Studio Code </p>
-                                 <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:70%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">70% </p>
-                                 
-                                  </div> 
-
-                                   <div class="progress">
-                                    <p class= "skillName">Webstrome </p>
-                                 <div class="myProgress progress-bar progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:70%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">70% </p>
-                                  </div> 
-
-                                  </div>
-
 
 
+         </div>
 
 
-                                  <h1 class= "innerTitle"> <i class="personalize fa fa-database"></i>Database</h1>
-                                
-                                  <div class= "contentDiv">
 
-                                   <div class="progress">
-                                    <p class= "skillName">SQLite </p>
-                                 <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">90% </p>
-                                  </div> 
-                                  
-                                 
 
-                                  <div class="progress">
-                                                <p class= "skillName">Oracle </p>
-                                             <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:75%; height:100px;">
-                                                   
-                                             </div>
-                                             <p class= "percentage">75% </p>
-                                             
-                                              </div> 
 
-                                  <div class="progress">
-                                    <p class= "skillName">Frebase Database </p>
-                                 <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">90% </p>
-                                 
-                                  </div> 
 
 
-                                  </div>
+         <h1 class="innerTitle"> <i class="personalize fa fa-code"></i>Programming Language</h1>
 
+         <div class="contentDiv">
 
+            <div class="progress">
+               <p class="skillName">Java </p>
+               <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
 
+               </div>
+               <p class="percentage">90% </p>
+            </div>
 
+            <div class="progress">
+               <p class="skillName">Javascript </p>
+               <div class="myProgress progress-bar  progress-bar-info progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
 
+               </div>
+               <p class="percentage">80% </p>
+            </div>
 
+            <div class="progress">
+               <p class="skillName">C/C# </p>
+               <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
 
+               </div>
+               <p class="percentage">80% </p>
 
-                                  
-                                  <h1 class= "innerTitle"> <i class="personalize fa fa-gear"></i>Tools &Technologies</h1>
-                                
-                                  <div class= "contentDiv">
+            </div>
 
-                                   <div class="progress">
-                                    <p class= "skillName">Android SDK </p>
-                                 <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">80% </p>
-                                  </div> 
-                                  
-                                 
+            <div class="progress">
+               <p class="skillName">Python </p>
+               <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
 
-                                  <div class="progress">
-                                                <p class= "skillName">Rest API (Developing and Usage) </p>
-                                             <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:85%; height:100px;">
-                                                   
-                                             </div>
-                                             <p class= "percentage">85% </p>
-                                             
-                                              </div> 
+               </div>
+               <p class="percentage">60% </p>
 
-                                  <div class="progress">
-                                    <p class= "skillName">Git </p>
-                                 <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">60% </p>
-                                 
-                                  </div> 
+            </div>
 
+            <div class="progress">
+               <p class="skillName">Php </p>
+               <div class="myProgress progress-bar progress-bar-striped active " role="progressbar" aria-valuenow="100"
+                  aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
 
+               </div>
+               <p class="percentage">60% </p>
+            </div>
 
 
-                                  <div class="progress">
-                                                <p class= "skillName">Retrofit </p>
-                                             <div class="myProgress progress-bar  progress-bar-info progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                                   
-                                             </div>
-                                             <p class= "percentage">80% </p>
-                                              </div> 
 
 
 
-                                              <div class="progress">
-                                                        <p class= "skillName">Geo Location </p>
-                                                     <div class="myProgress progress-bar  progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                                           
-                                                     </div>
-                                                     <p class= "percentage">80% </p>
-                                                      </div> 
+         </div>
 
 
 
-                                                      <div class="progress">
-                                                                <p class= "skillName">JSON </p>
-                                                             <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                                                   
-                                                             </div>
-                                                             <p class= "percentage">80% </p>
-                                                              </div> 
 
 
 
-                                                              <div class="progress">
-                                                                        <p class= "skillName">XML </p>
-                                                                     <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:70%; height:100px;">
-                                                                           
-                                                                     </div>
-                                                                     <p class= "percentage">70% </p>
-                                                                      </div> 
 
 
-                                  </div>
 
+         <h1 class="innerTitle"> <i class="personalize fa fa-laptop"></i>Development Environment</h1>
 
+         <div class="contentDiv">
 
+            <div class="progress">
+               <p class="skillName">Android Studio </p>
+               <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
 
+               </div>
+               <p class="percentage">90% </p>
+            </div>
 
-                                  <h1 class= "innerTitle"> <i class="personalize fa fa-pie-chart"></i>Software SKills</h1>
-                                
-                                  <div class= "contentDiv">
+            <div class="progress">
+               <p class="skillName">Eclipse/Netbeans </p>
+               <div class="myProgress progress-bar  progress-bar-info progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:85%; height:100px;">
 
-                                   <div class="progress">
-                                    <p class= "skillName">Adobe Photoshop </p>
-                                 <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">90% </p>
-                                  </div> 
-                                  
-                                 
+               </div>
+               <p class="percentage">85% </p>
+            </div>
 
-                                  <div class="progress">
-                                                <p class= "skillName">Adobe Illustrator </p>
-                                             <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                                   
-                                             </div>
-                                             <p class= "percentage">80% </p>
-                                             
-                                              </div> 
+            <div class="progress">
+               <p class="skillName">PyCharm </p>
+               <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
 
-                                  <div class="progress">
-                                    <p class= "skillName">Adobe After Effects </p>
-                                 <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">60% </p>
-                                 
-                                  </div> 
+               </div>
+               <p class="percentage">80% </p>
 
+            </div>
 
-                                  </div>
+            <div class="progress">
+               <p class="skillName">Visual Studio/ Visual Studio Code </p>
+               <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:70%; height:100px;">
 
+               </div>
+               <p class="percentage">70% </p>
 
+            </div>
 
+            <div class="progress">
+               <p class="skillName">Webstrome </p>
+               <div class="myProgress progress-bar progress-bar-striped active " role="progressbar" aria-valuenow="100"
+                  aria-valuemin="0" aria-valuemax="100" style="width:70%; height:100px;">
 
+               </div>
+               <p class="percentage">70% </p>
+            </div>
 
+         </div>
 
-                                  
-                                  <h1 class= "innerTitle"> <i class="personalize fa fa-graduation-cap"></i>Interpersonal Skills</h1>
-                                
-                                  <div class= "contentDiv">
 
-                                   <div class="progress">
-                                    <p class= "skillName">Presentation </p>
-                                 <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">90% </p>
-                                  </div> 
-                                  
-                                 
 
-                                  <div class="progress">
-                                                <p class= "skillName">Teamwork </p>
-                                             <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                                   
-                                             </div>
-                                             <p class= "percentage">80% </p>
-                                             
-                                              </div> 
 
-                                  <div class="progress">
-                                    <p class= "skillName">Communication </p>
-                                 <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:85%; height:100px;">
-                                       
-                                 </div>
-                                 <p class= "percentage">85% </p>
-                                 
-                                  </div> 
 
+         <h1 class="innerTitle"> <i class="personalize fa fa-database"></i>Database</h1>
 
+         <div class="contentDiv">
 
+            <div class="progress">
+               <p class="skillName">SQLite </p>
+               <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
 
-                                  <div class="progress">
-                                                <p class= "skillName">Leadership </p>
-                                             <div class="myProgress progress-bar   progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
-                                                   
-                                             </div>
-                                             <p class= "percentage">90% </p>
-                                             
-                                              </div> 
+               </div>
+               <p class="percentage">90% </p>
+            </div>
 
 
 
-                                              <div class="progress">
-                                                        <p class= "skillName">Problem Solving </p>
-                                                     <div class="myProgress progress-bar  progress-bar-info progress-bar-striped active " role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
-                                                           
-                                                     </div>
-                                                     <p class= "percentage">80% </p>
-                                                     
-                                                      </div> 
+            <div class="progress">
+               <p class="skillName">Oracle </p>
+               <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:75%; height:100px;">
 
+               </div>
+               <p class="percentage">75% </p>
 
-                                  </div>
+            </div>
 
+            <div class="progress">
+               <p class="skillName">Frebase Database </p>
+               <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
 
+               </div>
+               <p class="percentage">90% </p>
 
+            </div>
 
-        
 
+         </div>
 
-</div>
-                
-    </div>
 
-        <script src="/src/main/main.js"></script>
-        
-        </body>
- 
+
+
+
+
+
+
+
+         <h1 class="innerTitle"> <i class="personalize fa fa-gear"></i>Tools &Technologies</h1>
+
+         <div class="contentDiv">
+
+            <div class="progress">
+               <p class="skillName">Android SDK </p>
+               <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
+
+               </div>
+               <p class="percentage">80% </p>
+            </div>
+
+
+
+            <div class="progress">
+               <p class="skillName">Rest API (Developing and Usage) </p>
+               <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:85%; height:100px;">
+
+               </div>
+               <p class="percentage">85% </p>
+
+            </div>
+
+            <div class="progress">
+               <p class="skillName">Git </p>
+               <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
+
+               </div>
+               <p class="percentage">60% </p>
+
+            </div>
+
+
+
+
+            <div class="progress">
+               <p class="skillName">Retrofit </p>
+               <div class="myProgress progress-bar  progress-bar-info progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
+
+               </div>
+               <p class="percentage">80% </p>
+            </div>
+
+
+
+            <div class="progress">
+               <p class="skillName">Geo Location </p>
+               <div class="myProgress progress-bar  progress-bar-striped active " role="progressbar" aria-valuenow="100"
+                  aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
+
+               </div>
+               <p class="percentage">80% </p>
+            </div>
+
+
+
+            <div class="progress">
+               <p class="skillName">JSON </p>
+               <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
+
+               </div>
+               <p class="percentage">80% </p>
+            </div>
+
+
+
+            <div class="progress">
+               <p class="skillName">XML </p>
+               <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:70%; height:100px;">
+
+               </div>
+               <p class="percentage">70% </p>
+            </div>
+
+
+         </div>
+
+
+
+
+
+         <h1 class="innerTitle"> <i class="personalize fa fa-pie-chart"></i>Software SKills</h1>
+
+         <div class="contentDiv">
+
+            <div class="progress">
+               <p class="skillName">Adobe Photoshop </p>
+               <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
+
+               </div>
+               <p class="percentage">90% </p>
+            </div>
+
+
+
+            <div class="progress">
+               <p class="skillName">Adobe Illustrator </p>
+               <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
+
+               </div>
+               <p class="percentage">80% </p>
+
+            </div>
+
+            <div class="progress">
+               <p class="skillName">Adobe After Effects </p>
+               <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%; height:100px;">
+
+               </div>
+               <p class="percentage">60% </p>
+
+            </div>
+
+
+         </div>
+
+
+
+
+
+
+
+         <h1 class="innerTitle"> <i class="personalize fa fa-graduation-cap"></i>Interpersonal Skills</h1>
+
+         <div class="contentDiv">
+
+            <div class="progress">
+               <p class="skillName">Presentation </p>
+               <div class="myProgress progress-bar  progress-bar-success progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
+
+               </div>
+               <p class="percentage">90% </p>
+            </div>
+
+
+
+            <div class="progress">
+               <p class="skillName">Teamwork </p>
+               <div class="myProgress progress-bar  progress-bar-warning progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
+
+               </div>
+               <p class="percentage">80% </p>
+
+            </div>
+
+            <div class="progress">
+               <p class="skillName">Communication </p>
+               <div class="myProgress progress-bar  progress-bar-danger progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:85%; height:100px;">
+
+               </div>
+               <p class="percentage">85% </p>
+
+            </div>
+
+
+
+
+            <div class="progress">
+               <p class="skillName">Leadership </p>
+               <div class="myProgress progress-bar   progress-bar-striped active " role="progressbar" aria-valuenow="100"
+                  aria-valuemin="0" aria-valuemax="100" style="width:90%; height:100px;">
+
+               </div>
+               <p class="percentage">90% </p>
+
+            </div>
+
+
+
+            <div class="progress">
+               <p class="skillName">Problem Solving </p>
+               <div class="myProgress progress-bar  progress-bar-info progress-bar-striped active " role="progressbar"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:80%; height:100px;">
+
+               </div>
+               <p class="percentage">80% </p>
+
+            </div>
+
+
+         </div>
+
+
+
+
+
+
+
+      </div>
+
+   </div>
+
+   <script src="/src/main/main.js"></script>
+
+</body>
+
 </html>

@@ -213,7 +213,7 @@ table {
 
         position: absolute;
         color: #fff;
-        padding-left: 0px;
+        padding-left: 5px;
         font-size: 10px;
         padding-top: 2px;
       }
@@ -221,7 +221,7 @@ table {
     
         text-align: right;
         color: #000;
-        padding-right: 0px;
+        padding-right: 5px;
         font-size: 10px;
         padding-top: 2px;
       }
