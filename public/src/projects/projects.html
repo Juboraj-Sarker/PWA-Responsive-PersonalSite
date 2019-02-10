@@ -1,109 +1,375 @@
 <!DOCTYPE html>
 <html>
-     
-    <head>
-			<link rel="stylesheet" type="text/css" href="/src/main/main.css">
-			<link rel="manifest" href="/manifest.json">
-			<script defer src="/sw.js"></script>
 
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<head>
+        <link rel="stylesheet" type="text/css" href="/src/main/main.css">
+        <link rel="stylesheet" type="text/css" href="/src/projects/projects.css">
+        <link rel="manifest" href="/manifest.json">
+        <script defer src="/sw.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       
+        <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
         <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-    </head>
-    <body>
+</head>
+
+<body>
 
 
-            <div id = "titleBar" class="titlebar w3-container ">
-                    <a id = "icon" class="icon"> <i class="fa fa-bars"></i></a> 
-                    <h1 class = "homeTitle">My Projects</h1>    
-            </div>
+        <div id="titleBar" class="titlebar w3-container ">
+                <a id="icon" class="icon"> <i class="fa fa-bars"></i></a>
+                <h1 class="homeTitle">My Projects</h1>
+        </div>
 
-            <!-- w3-sidebar w3-bar-block -->
-            <div id = "sidebar" class="sidebar w3-sidebar w3-bar-block " style="width:250px;">
+        <!-- w3-sidebar w3-bar-block -->
+        <div id="sidebar" class="sidebar w3-sidebar w3-bar-block " style="width:250px;">
 
-                        <a class="logoClass" href="/index.html"><img src="/src/main/main.png" alt="Trulli" width="250" height="32"></a>
-                    
+                <a class="logoClass" href="/index.html"><img src="/src/main/main.png" alt="Trulli" width="250"
+                                height="32"></a>
 
-                    <a href="/index.html" >
-                            <i class="fa fa-home"></i>
-                            Home
-                      </a>
 
-                    <a href="/src/about/about.html"> 
-                            <i class="fa fa-question-circle"></i>
-                        About
-                    </a>
-
-                    <div id="myLinks">
-
-                            
-
-                    <a href="/src/skills/skills.html">
-                          <i class="fa fa-pie-chart"></i>
-                          Skills
-                    </a>
-
-                    <a href="/src/experience/experience.html">
-                            <i class="fa fa-briefcase"></i>
-                            Experience
-                      </a>
-
-                       <a href="/src/projects/projects.html" class="active">
-                          <i class="fa fa-edit"></i>
-                          Project
-                    </a>
-
-                    <a href="/src/education/education.html">
-                            <i class="fa fa-graduation-cap"></i>
-                            Education
-                     </a>
-                     
-                     <a href="/src/certification/certification.html">
-                        <i class="fa fa-certificate"></i>
-                       Professional Certification
+                <a href="/index.html">
+                        <i class="fa fa-home"></i>
+                        Home
                 </a>
-					  
-			<a href="/src/award/award.html">
-                            <i class="fa fa-trophy"></i>
-                            Award
-                      </a>
 
-                      <a href="/src/contact/contact.html">
-                            <i class="fa fa-phone-square"></i>
-                            Contact
-                      </a>
+                <a href="/src/about/about.html">
+                        <i class="fa fa-question-circle"></i>
+                        About
+                </a>
 
-                      
+                <div id="myLinks">
 
-                      
-                    </div>
-                   
-                  </div>
-            
 
-      
 
-        
-        
+                        <a href="/src/skills/skills.html">
+                                <i class="fa fa-pie-chart"></i>
+                                Skills
+                        </a>
+
+                        <a href="/src/experience/experience.html">
+                                <i class="fa fa-briefcase"></i>
+                                Experience
+                        </a>
+
+                        <a href="/src/projects/projects.html" class="active">
+                                <i class="fa fa-edit"></i>
+                                Project
+                        </a>
+
+                        <a href="/src/education/education.html">
+                                <i class="fa fa-graduation-cap"></i>
+                                Education
+                        </a>
+
+                        <a href="/src/certification/certification.html">
+                                <i class="fa fa-certificate"></i>
+                                Professional Certification
+                        </a>
+
+                        <a href="/src/award/award.html">
+                                <i class="fa fa-trophy"></i>
+                                Award
+                        </a>
+
+                        <a href="/src/contact/contact.html">
+                                <i class="fa fa-phone-square"></i>
+                                Contact
+                        </a>
+
+
+
+
+                </div>
+
+        </div>
+
+
+
+
+
+
         <div id="mainContent" class="content w3-container">
 
-          <h2>Content Will Go Here </h2>
-          
+
+                <div class="fullContainer">
+
+                       
+                                <div class="slideshow-container">
+
+                                                <div class="mySlides fade">
+                                                        <!-- <div class="numbertext">1 / 3</div> -->
+                                                        <img src="/src/projects/images/system_info.jpg" style="width:100%">
+        
+                                                </div>
+        
+                                                <div class="mySlides fade">
+                                                        <!-- <div class="numbertext">2 / 3</div> -->
+                                                        <img src="/src/projects/images/sms_scheduler.jpg" style="width:100%">
+        
+                                                </div>
+        
+                                                <div class="mySlides fade">
+                                                        <!-- <div class="numbertext">3 / 3</div> -->
+                                                        <img src="/src/projects/images/mind_reader.jpg" style="width:100%">
+        
+                                                </div>
+        
+                                                <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                                <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        
+                                        </div>
+                                        <br>
+        
+                                        <div style="text-align:center">
+                                                <span class="dot" onclick="currentSlide(1)"></span>
+                                                <span class="dot" onclick="currentSlide(2)"></span>
+                                                <span class="dot" onclick="currentSlide(3)"></span>
+                                        </div>
+
+                        <h1 class="myTitle">Hi, I'm Juboraj Sarker</h1>
+                        <p class="myTagline">A Dreamer with open eyes !</p>
+                        <p class="myDescription">I'm a hardworking and faithful person. I like honesty, personality,
+                                punctuality,
+                                sincerity. And passionate with Mobile Application Developing.</p>
+
+                        <div class="contactContainer">
+                                <p class="myContact">Email: juborajsarker001@gmail.com</p>
+                                <p class="myContact">Phone: +8801938365335</p>
+                        </div>
+
+                        <div class="socialContainer">
+
+                                <a class="social" href="https://www.facebook.com/sarker.juboraj" target="_blank"><i
+                                                class="fa fa-facebook"></i></a>
+                                <a class="social" href="https://plus.google.com/+JuborajSarker001" target="_blank"><i
+                                                class="fa fa-google-plus"></i></a>
+                                <a class="social" href="https://www.linkedin.com/in/juboraj-sarker/" target="_blank"><i
+                                                class="fa fa-linkedin"></i></a>
+                                <a class="social" href="https://twitter.com/juboraj_sarker" target="_blank"><i
+                                                class="fa fa-twitter"></i></a>
+                                <a class="social" href="https://www.instagram.com/juboraj.sarker/" target="_blank"><i
+                                                class="fa fa-instagram"></i></a>
+                        </div>
+                </div>
+
+
+
+                <div class="fullContainer2">
+
+
+                        <h1 class="mainTitle">Projects</h1>
+
+
+
+                        <div class="contentDiv">
+                                <img class="projectImage" src="/src/projects/images/system_info.jpg" alt="System Info">
+                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>System Info</h1>
+                                <p class="companyAddress"> </p>
+                                <p class="experienceDetails">In System Info you can check your device/mobile isRooted or
+                                        not and also you can get android secret code,Full system info,Android Device
+                                        Information,Droid Full System info,Cpu z,cpu-z,Cpu info, provides smart system &
+                                        hardware information about your Android device. The app gives you the
+                                        possibility to see in real time interesting parameters of your system.
+                                </p>
+
+                                <a class="button button2"
+                                        href="https://play.google.com/store/apps/details?id=com.juborajsarker.systeminfo"
+                                        target="_blank">See In Google Play Store</a>
+
+                        </div>
+
+
+
+                        <div class="contentDiv">
+                                <img class="projectImage" src="/src/projects/images/my_location.jpg" alt="System Info">
+                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>My Location</h1>
+                                <p class="companyAddress"> </p>
+                                <p class="experienceDetails">My Location is a free android app for find out the full details about user’s current location. The main feature of My Location is, showing the nearest or nearby places within user's choice radius. For Example: If one user wants to see the all coffee-shop between his/her 1 Kilometre from his/her current location. Also it will able to show all the places in map with multiple map marker. User will able to see the shortest path of going that place from his/her current location. All data is real time and also it will be update with location change.
+                                </p>
+
+                                <a class="button button2"
+                                        href="https://play.google.com/store/apps/details?id=com.juborajsarker.mylocation"
+                                        target="_blank">See In Google Play Store</a>
+
+                        </div>
+
+
+                        <div class="contentDiv">
+                                <img class="projectImage" src="/src/projects/images/sms_scheduler.jpg" alt="System Info">
+                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>SMS Scheduler</h1>
+                                <p class="companyAddress"> </p>
+                                <p class="experienceDetails">SMS Scheduler is a full free android application which will help you to schedule a sms to send it later. If you want everything will be done on time and you want to do it with the app then you are in right place. SMS Scheduler will be your lover. SMS Scheduler will send sms to your choice schedule. You just have to give input like #Schedule Date, #Schedule Time, #Receiver contact number, Your desire message. SMS Scheduler will store all the data to its local database. And it will send sms to your desire person with the schedule period.
+                                </p>
+
+                                <a class="button button2"
+                                        href="https://play.google.com/store/apps/details?id=com.juborajsarker.smsscheduler"
+                                        target="_blank">See In Google Play Store</a>
+
+                        </div>
+
+
+
+                        <div class="contentDiv">
+                                <img class="projectImage" src="/src/projects/images/password_manager.jpg" alt="System Info">
+                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>Password Manager</h1>
+                                <p class="companyAddress"> </p>
+                                <p class="experienceDetails">Password Manager is a free android application which will help you to store your account password. It will give you full support of storing password both online and offline. For online storing here used google firebase service. And for offline used sqlite database. Password manager will ensure the best security about storing and retreiveinh data.
+                                </p>
+
+                                <a class="button button2"
+                                        href="https://play.google.com/store/apps/details?id=com.juborajsarker.passwordmanager"
+                                        target="_blank">See In Google Play Store</a>
+
+                        </div>
+
+
+
+                        <div class="contentDiv">
+                                <img class="projectImage" src="/src/projects/images/secret_message.jpg" alt="System Info">
+                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>Secret Message</h1>
+                                <p class="companyAddress"> </p>
+                                <p class="experienceDetails">With Secret Message Generate you can create encrypted messages which are hard to read for others if you need privacy. The main features of this app are: Write message, Create password, Encrypt message, Copy and share your secret message with others, Paste and decrypt message. This app is really easy to use and user friendly interface.
+                                </p>
+
+                                <a class="button button2"
+                                        href="https://play.google.com/store/apps/details?id=juborajsarker.secretmessagegenerator"
+                                        target="_blank">See In Google Play Store</a>
+
+                        </div>
+
+
+
+                        <div class="contentDiv">
+                                <img class="projectImage" src="/src/projects/images/mind_reader.jpg" alt="System Info">
+                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>Mind Reader</h1>
+                                <p class="companyAddress"> </p>
+                                <p class="experienceDetails">This is a simple illusion game to make anyone amaze. This is prepare to be amazed by an ancient Egyptian mind reading magic act. Just pick a number, follow some simple instructions and find a matching symbol in an ancient Egyptian scroll. Do not click on the symbol and do not tell anyone what the symbol is, for the Mind Reader can reach right into the depth of your soul and retrieve it! With quality graphics and presentation the Mind Reader will surely amaze your friends and family. They will have no idea how it is done.
+                                </p>
+
+                                <a class="button button2"
+                                        href="https://play.google.com/store/apps/details?id=com.juborajsarker.mindreader"
+                                        target="_blank">See In Google Play Store</a>
+
+                        </div>
+
+
+
+
+                        <div class="contentDiv">
+                                <img class="projectImage" src="/src/projects/images/cgpa_calculator.jpg" alt="System Info">
+                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>CGPA Calculator</h1>
+                                <p class="companyAddress"> </p>
+                                <p class="experienceDetails">A simple yet effective CGPA Calculator for University students. it is a faster & easier app to calculate CGPA in android phone. The default grading system is follow standard of Daffodil International University (DIU) in Bangladesh. And also based on default grading system in university level. However, students can change the grade setting to fit their university/college standard.
+                                </p>
+
+                                <a class="button button2"
+                                        href="https://play.google.com/store/apps/details?id=com.juborajsarker.cgpacalculator"
+                                        target="_blank">See In Google Play Store</a>
+
+                        </div>
+
+
+
+
+                        <div class="contentDiv">
+                                <img class="projectImage" src="/src/projects/images/voice_recorder.jpg" alt="System Info">
+                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>Simple Voice Recorder</h1>
+                                <p class="companyAddress"> </p>
+                                <p class="experienceDetails">Simple Voice Recorder is very simple and efficient app for recording voice. Simple Voice Recorder is designed for record and save user’s voice in local database of user’s phone. It will give flexibility to the user in recording crystal clear and HD voice. This app used SQ-Lite local database to save user’s data. Also this app has a fresh UI and UX design that user must like it.
+                                </p>
+
+                                <a class="button button2"
+                                        href="https://play.google.com/store/apps/details?id=com.juborajsarker.voicerecorder"
+                                        target="_blank">See In Google Play Store</a>
+
+                        </div>
+
+
+
+                        <div class="contentDiv">
+                                <img class="projectImage" src="/src/projects/images/age_calculator.jpg" alt="System Info">
+                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>Age Calculator</h1>
+                                <p class="companyAddress"> </p>
+                                <p class="experienceDetails">Age Calculator provides you best and easy calculation of you age and remaining days of your next coming birthday. It's sometimes very handy to find actual age and days between two dates. This is a very easy age calculator to calculate your actual age and find days between two dates. To calculate your age in years, months, days, hours, minutes and seconds Age Calculator will helps you.
+                                </p>
+
+                                <a class="button button2"
+                                        href="https://play.google.com/store/apps/details?id=com.juborajsarker.agecalculator"
+                                        target="_blank">See In Google Play Store</a>
+
+                        </div>
+
+
+
+                        <div class="contentDiv">
+                                <img class="projectImage" src="/src/projects/images/touch_and_learn.jpg" alt="System Info">
+                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>Touch and Learn</h1>
+                                <p class="companyAddress"> </p>
+                                <p class="experienceDetails">Touch and Learn is a free phonics and alphabet teaching app that makes learning fun for children, from toddlers all the way to preschoolers and kindergartners. This is more than just a kid-friendly educational app, it was designed with adult participation in mind too. The interface keeps toddlers focused on alphabet reading and writing, tucking menu commands away from moving fingers.
+                                </p>
+
+                                <a class="button button2"
+                                        href="https://play.google.com/store/apps/details?id=com.juborajsarker.touchandlearn"
+                                        target="_blank">See In Google Play Store</a>
+
+                        </div>
+
+
+                        <div class="contentDiv">
+                                        <img class="projectImage" src="/src/projects/images/ip_calculator.jpg" alt="System Info">
+                                        <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>IP Calculator</h1>
+                                        <p class="companyAddress"> </p>
+                                        <p class="experienceDetails">This is an application for calculating IPv4 addresses. This application will help you to calculate *Network address *Subnet mask *First usable host *Last usable host *Broadcast address from a given IP. The all calculation has been justified by a network specialist. Also this application show the full calculation in both Decimal and Binary format.
+                                        </p>
+        
+                                        <a class="button button2"
+                                                href="https://play.google.com/store/apps/details?id=juborajsarker.iplator"
+                                                target="_blank">See In Google Play Store</a>
+        
+                                </div>
+
+
+
+                                <div class="contentDiv">
+                                                <img class="projectImage" src="/src/projects/images/tic_tac_toe.jpg" alt="System Info">
+                                                <h1 class="innerTitle"> <i class="personalize fa fa-android"></i>Tic Tac Toe</h1>
+                                                <p class="companyAddress"> </p>
+                                                <p class="experienceDetails">Tic Tac Toe is free classic puzzle game also known as "noughts and crosses or sometimes X and O". The Tic Tac Toe game is a game for two players, called "X" and "O", who take turns marking the spaces in a 3×3 grid. The player who succeeded in placing three respective marks in a horizontal, vertical, or diagonal row wins the game. The Tic Tac Toe is a great way to pass your free time.
+                                                </p>
+                
+                                                <a class="button button2"
+                                                        href="https://play.google.com/store/apps/details?id=com.juboraj_sarker.tictactoe"
+                                                        target="_blank">See In Google Play Store</a>
+                
+                                        </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
         </div>
 
         <script src="/src/main/main.js"></script>
-        
-        </body>
- 
+
+</body>
+
 </html>

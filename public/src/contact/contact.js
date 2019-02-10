@@ -52,5 +52,3 @@ function checkValiditys(){
         return false;
     }
 }
-
-//
