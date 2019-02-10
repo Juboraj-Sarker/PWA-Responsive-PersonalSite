@@ -149,7 +149,7 @@ tr.hobbyData:nth-child(odd) {
   background-color: #fff;
 }
 
-.skillName {
+/* .skillName {
   position: absolute;
   color: #fff;
   padding-left: 10px;
@@ -165,6 +165,129 @@ tr.hobbyData:nth-child(odd) {
 .personalProgress{
 
   background: #000;
+} */
+
+
+
+.progress {
+  height: 26px;
+  width: 100%;
+  background-color: #c9c9c9;
+  
+  margin-top: 10px;
+  margin-bottom: 4px;
+  
+  
+  
+  
+  
+}
+
+.bottomSpan{
+
+  float: right; 
+  padding-right: 5px; 
+  
+  padding-top: 5px;
+}
+
+.singleContent{
+
+  position: relative;
+}
+
+
+@media(min-width:320px){
+
+  .bottomSpan{
+    font-size: 8px;
+  }
+}
+
+@media(min-width:360px){
+
+  .bottomSpan{
+    font-size: 10px;
+  }
+}
+
+@media(min-width:410){
+
+  .bottomSpan{
+    font-size: 12px;
+  }
+}
+
+@media(min-width:1000){
+
+  .bottomSpan{
+    font-size: 12px;
+  }
+}
+
+
+/* .progress:before {
+  content: attr(data-label);
+  font-size: 0.8em;
+  position: absolute;
+  text-align: left;
+  top: 5px;
+  left: 0;
+  right: 0;
+  padding-left: 10px;
+} */
+
+.progress:before {
+  content: attr(data-label);
+  font-size: 0.8em;
+  position: absolute;
+  text-align: right;
+  top: 5px;
+  left: 0;
+  right: 0;
+  padding-right: 10px;
+}
+
+.progress .value  {
+  
+  display: inline-block;
+  height: 100%;
+  padding-left: 5px;
+  color: #fff;
+  
+}
+
+
+
+
+.style1{
+
+  background-color: #337ab7;
+}
+
+.style2{
+
+  background-color: #d9534f;
+}
+
+.style3{
+
+  background-color: #f0ad4e;
+}
+
+.style4{
+
+  background-color: #5bc0de;
+}
+
+.style5{
+
+  background-color: #5cb85c;
+}
+
+.style0{
+
+  background-color: #c9c9c9;
 }
 
 /* Small Screen*/
